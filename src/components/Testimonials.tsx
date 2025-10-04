@@ -34,7 +34,7 @@ export function Testimonials() {
                 <Star key={i} size={16} className="text-amber-500 fill-amber-500" />
               ))}
             </div>
-            <p className="text-slate-600 mb-4">"{t.text}"</p>
+            <p className="text-slate-600 mb-4">&ldquo;{t.text}&rdquo;</p>
             <div className="font-semibold">{t.name}</div>
             <div className="text-sm text-slate-500">{t.role}</div>
           </div>
